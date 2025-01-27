@@ -1,4 +1,4 @@
-package ProjectA;
+package Project.A;
 
 public class Main {
 }
