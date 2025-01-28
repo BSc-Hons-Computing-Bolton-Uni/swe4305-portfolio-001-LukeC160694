@@ -1,7 +1,7 @@
 package Logbook.Week1.Task3;
 import java.util.Scanner;
 
-public class main {
+public class Rectangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the length of the rectangle: ");
