@@ -32,5 +32,26 @@ public class main {
         double area = length * height;
         System.out.println("Perimeter: " + perimeter);
         System.out.println("Area: " + area);
+        System.out.println("\n-------------------------");
+
+        // Program 4: Average of Two Numbers
+        System.out.println("Program 4: Average of Two Numbers");
+        System.out.print("Enter the first number: ");
+        double num1 = scanner.nextDouble();
+        System.out.print("Enter the second number: ");
+        double num2 = scanner.nextDouble();
+        double average = (num1 + num2) / 2;
+        System.out.println("The average is: " + average);
+
+        System.out.println("\n-------------------------");
+
+        // Program 5: Reverse Two Integers
+        System.out.println("Program 5: Reverse Two Integers");
+        System.out.print("Enter the first integer: ");
+        int int1 = scanner.nextInt();
+        System.out.print("Enter the second integer: ");
+        int int2 = scanner.nextInt();
+        System.out.println("Original order: " + int1 + ", " + int2);
+        System.out.println("Reversed order: " + int2 + ", " + int1);
     }
 }
