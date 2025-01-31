@@ -53,5 +53,30 @@ public class main {
         int int2 = scanner.nextInt();
         System.out.println("Original order: " + int1 + ", " + int2);
         System.out.println("Reversed order: " + int2 + ", " + int1);
+        System.out.println("\n-------------------------");
+
+        System.out.println("\n-------------------------");
+
+        // Program 6: Calculate Birth Year from Age
+        System.out.println("Program 6: Calculate Birth Year from Age");
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        int currentYear = LocalDate.now().getYear();
+        int birthYear = currentYear - age;
+        System.out.println("You were born in: " + birthYear);
+
+        System.out.println("\n-------------------------");
+
+        // Program 7: Calculate Days Old from DOB
+        scanner.nextLine(); // Consume leftover newline
+        System.out.println("Program 7: Calculate Days Old from DOB");
+        System.out.print("Enter your date of birth (YYYY-MM-DD): ");
+        String dobInput = scanner.nextLine();
+        LocalDate dob = LocalDate.parse(dobInput);
+        LocalDate today = LocalDate.now();
+        long daysOld = java.time.temporal.ChronoUnit.DAYS.between(dob, today);
+        System.out.println("You are " + daysOld + " days old.");
+
+        System.out.println("\n-------------------------");
     }
 }
