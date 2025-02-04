@@ -2,25 +2,41 @@ package Logbook.Week1;
 
 import java.util.Scanner;
 import java.time.LocalDate;
-import java.time.Period;
+
+/**
+ * This program contains the work for week 1.
+ * I have put them together to be able to run sequentially.
+ * This enables it all to be in one place and be easily read and understood.
+ * It demonstrates basic java functionalities i have learnt such as,
+ * User input, arithmetic operations, and string manipulation.
+ */
 
 public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Program 1: Hello World
+        /**
+         * Program 1: Hello world
+         * Prints "Hello World!" to the console.
+         */
         System.out.println("Program 1: Hello World");
         System.out.println("Hello World!");
         System.out.println("\n-------------------------");
 
-        // Program 2: Personalised Greeting
+        /**
+         * Program 2: Personalised greeting
+         * Asks for the users name and greets them.
+         */
         System.out.println("Program 2: Personalised Greeting");
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Hello " + name + "!");
         System.out.println("\n-------------------------");
 
-        // Program 3: Rectangle Perimeter and Area
+        /**
+         * Program 3: Rectangle perimeter and area
+         * Calculates and displays the perimeter and area of a rectangle.
+         */
         System.out.println("Program 3: Rectangle Perimeter and Area");
         System.out.print("Enter the length of the rectangle: ");
         double length = scanner.nextDouble();
@@ -32,7 +48,10 @@ public class main {
         System.out.println("Area: " + area);
         System.out.println("\n-------------------------");
 
-        // Program 4: Average of Two Numbers
+        /**
+         * Program 4: Average of two numbers
+         * Computes and displays the average of two numbers.
+         */
         System.out.println("Program 4: Average of Two Numbers");
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
@@ -42,7 +61,10 @@ public class main {
         System.out.println("The average is: " + average);
         System.out.println("\n-------------------------");
 
-        // Program 5: Reverse Two Integers
+        /**
+         * Program 5: Reverse two integers
+         * Reads two integers and displays them in reverse order.
+         */
         System.out.println("Program 5: Reverse Two Integers");
         System.out.print("Enter the first integer: ");
         int int1 = scanner.nextInt();
@@ -53,7 +75,10 @@ public class main {
         System.out.println("\n-------------------------");
         System.out.println("\n-------------------------");
 
-        // Program 6: Calculate Birth Year from Age
+        /**
+         * Program 6: Calculate birth year from age
+         * Computes the birth year based on the user-provided age.
+         */
         System.out.println("Program 6: Calculate Birth Year from Age");
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
@@ -62,7 +87,10 @@ public class main {
         System.out.println("You were born in: " + birthYear);
         System.out.println("\n-------------------------");
 
-        // Program 7: Calculate Days Old from DOB
+        /**
+         * program 7: Calculate days old from DOB
+         * Computes the number of days since the users birth date.
+         */
         scanner.nextLine();
         System.out.println("Program 7: Calculate Days Old from DOB");
         System.out.print("Enter your date of birth (YYYY-MM-DD): ");
@@ -74,7 +102,10 @@ public class main {
         System.out.println("\n-------------------------");
         System.out.println("\n-------------------------");
 
-        // Program 8: Convert Feet to Miles
+        /**
+         * Program 8: Convert feet to miles
+         * Converts a given number of feet into miles.
+         */
         System.out.println("Program 8: Convert Feet to Miles");
         System.out.print("Enter the number of feet: ");
         double feet = scanner.nextDouble();
@@ -82,7 +113,10 @@ public class main {
         System.out.println(feet + " feet is " + miles + " miles.");
         System.out.println("\n-------------------------");
 
-        // Program 9: Savings Account Interest Calculation
+        /**
+         * Program 9: Savings account interest calculation
+         * Computes 1% interest on a deposit and displays the total amount.
+         */
         System.out.println("Program 9: Savings Account Interest Calculation");
         System.out.print("Enter the deposit amount: ");
         double deposit = scanner.nextDouble();
