@@ -11,7 +11,6 @@ public class main {
         // Program 1: Hello World
         System.out.println("Program 1: Hello World");
         System.out.println("Hello World!");
-
         System.out.println("\n-------------------------");
 
         // Program 2: Personalised Greeting
@@ -19,7 +18,6 @@ public class main {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Hello " + name + "!");
-
         System.out.println("\n-------------------------");
 
         // Program 3: Rectangle Perimeter and Area
@@ -42,7 +40,6 @@ public class main {
         double num2 = scanner.nextDouble();
         double average = (num1 + num2) / 2;
         System.out.println("The average is: " + average);
-
         System.out.println("\n-------------------------");
 
         // Program 5: Reverse Two Integers
@@ -54,7 +51,6 @@ public class main {
         System.out.println("Original order: " + int1 + ", " + int2);
         System.out.println("Reversed order: " + int2 + ", " + int1);
         System.out.println("\n-------------------------");
-
         System.out.println("\n-------------------------");
 
         // Program 6: Calculate Birth Year from Age
@@ -64,11 +60,10 @@ public class main {
         int currentYear = LocalDate.now().getYear();
         int birthYear = currentYear - age;
         System.out.println("You were born in: " + birthYear);
-
         System.out.println("\n-------------------------");
 
         // Program 7: Calculate Days Old from DOB
-        scanner.nextLine(); // Consume leftover newline
+        scanner.nextLine();
         System.out.println("Program 7: Calculate Days Old from DOB");
         System.out.print("Enter your date of birth (YYYY-MM-DD): ");
         String dobInput = scanner.nextLine();
@@ -76,7 +71,6 @@ public class main {
         LocalDate today = LocalDate.now();
         long daysOld = java.time.temporal.ChronoUnit.DAYS.between(dob, today);
         System.out.println("You are " + daysOld + " days old.");
-
         System.out.println("\n-------------------------");
         System.out.println("\n-------------------------");
 
@@ -86,7 +80,6 @@ public class main {
         double feet = scanner.nextDouble();
         double miles = feet / 5280;
         System.out.println(feet + " feet is " + miles + " miles.");
-
         System.out.println("\n-------------------------");
 
         // Program 9: Savings Account Interest Calculation
@@ -98,7 +91,6 @@ public class main {
         double total = deposit + interest;
         System.out.println("Interest earned: " + interest);
         System.out.println("Total amount after a year: " + total);
-
         System.out.println("\nAll programs executed successfully!");
         scanner.close();
     }
