@@ -10,7 +10,10 @@ public class main {
         Scanner scanner = new Scanner(System.in);
         int currentYear = LocalDate.now().getYear();
 
-        // Program 1: Age Check
+        /** Write a continued program from week 1
+         * to check the age of the user and return a message saying
+         * if they are 18 or over.
+         */
         System.out.println("Program 1: Age Check");
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
@@ -19,7 +22,11 @@ public class main {
         System.out.println(age >= 18 ? "You are an adult." : "You are under 18.");
         System.out.println("\n-------------------------");
 
-        // Program 2: Grade Classification
+        /**
+         * Write a program for the user to enter their grade and
+         * have the program output the University classification
+         * for the grade entered.
+         */
         scanner.nextLine(); // Consume newline
         System.out.println("Program 2: Grade Classification");
         System.out.print("Enter your letter grade (A, B, C, D, E, F): ");
@@ -35,7 +42,9 @@ public class main {
         }
         System.out.println("\n-------------------------");
 
-        // Program 3: Digits from 0 to 9
+        /**
+         * Write a program that outputs the digits from 0-9 using a loop
+         */
         System.out.println("Program 3: Digits from 0 to 9");
         for (int i = 0; i <= 9; i++) {
             System.out.print(i + " ");
@@ -49,7 +58,10 @@ public class main {
         }
         System.out.println("\n-------------------------");
 
-        // Program 5: Custom Multiplication Table
+        /**
+         * Write a program that asks the user for a number between
+         * 1-12 and outputs that numbers multiplication table.
+         */
         System.out.println("Program 5: Custom Multiplication Table");
         System.out.print("Enter a number to see its multiplication table: ");
         int number = scanner.nextInt();
@@ -58,7 +70,10 @@ public class main {
         }
         System.out.println("\n-------------------------");
 
-        // Program 6: Multiplication Table with Restart
+        /**
+         * Same as the previous task with the added function of
+         * a restart at the end of the program.
+         */
         char choice;
         do {
             System.out.println("Program 6: Multiplication Table with Restart");
