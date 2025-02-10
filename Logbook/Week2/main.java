@@ -51,7 +51,9 @@ public class main {
         }
         System.out.println("\n-------------------------");
 
-        // Program 4: 7-Times Table
+        /**
+         * A program that outputs the 7-times tables to the user.
+         */
         System.out.println("Program 4: 7-Times Table");
         for (int i = 1; i <= 12; i++) {
             System.out.println(i + " x 7 = " + (i * 7));
@@ -88,7 +90,10 @@ public class main {
         System.out.println("Goodbye!");
         System.out.println("\n-------------------------");
 
-        // Program 7: Exam Mark to Grade
+        /**
+         * A program that takes an exam score from the user and outputs
+         * a grade in return based ojn the exam score.
+         */
         System.out.println("Program 7: Exam Mark to Grade");
         System.out.print("Enter your exam mark (0-100): ");
         int mark = scanner.nextInt();
@@ -105,7 +110,10 @@ public class main {
         }
         System.out.println("\n-------------------------");
 
-        // Program 8: Print Even Numbers
+        /**
+         * Program that prints only even numbers between
+         * the numbers 0 and q0 and outputs to user.
+         */
         System.out.println("Program 8: Print Even Numbers");
         for (int i = 0; i <= 10; i++) {
             if (i % 2 == 0) {
