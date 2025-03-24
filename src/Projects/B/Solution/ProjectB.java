@@ -50,7 +50,7 @@ class Student {
     }
 }
 
-public class Main {
+public class ProjectB {
     private static final List<Student> students = new ArrayList<>();
     private static final LinkedHashMap<String, String> modules = new LinkedHashMap<>();
     private static final Scanner scanner = new Scanner(System.in);

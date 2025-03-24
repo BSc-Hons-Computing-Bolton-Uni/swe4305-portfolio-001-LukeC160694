@@ -149,7 +149,7 @@ class StockDemo {
 /**
  * Define the main method to run the tests.
  */
-public class main {
+public class Week5 {
     public static void main(String[] args) {
         StockDemo demo = new StockDemo();
         demo.run();

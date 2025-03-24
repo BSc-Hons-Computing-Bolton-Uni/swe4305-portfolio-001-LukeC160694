@@ -51,7 +51,7 @@ class Course {
 }
 
 // Main Class to Instantiate Student and Course
-public class main {
+public class Week3 {
     public static void main(String[] args) {
 
         // Instantiate Student object

@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'org.junit.platform.gradle.plugin' version '1.8.0' // Add this for JUnit 5 support
+}
+
+repositories {
+    mavenCentral() // To pull dependencies from Maven Central
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform() // To use JUnit 5 platform
+}

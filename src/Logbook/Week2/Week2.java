@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * This program contains the Work for the tasks associated with Week 2 of the logbook.
  */
-public class main {
+public class Week2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int currentYear = LocalDate.now().getYear();
@@ -125,4 +125,3 @@ public class main {
         scanner.close(); // Close scanner to prevent resource leak
     }
 }
-

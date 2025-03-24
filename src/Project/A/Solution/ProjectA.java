@@ -82,13 +82,13 @@ class Playlist {
 }
 
 // Main class for managing the music streaming service
-public class Main {
+public class ProjectA {
     private ArrayList<Song> songs;
     private ArrayList<Playlist> playlists;
     private Scanner scanner;
 
     // Constructor initialises the song list and scanner
-    public Main() {
+    public ProjectA() {
         songs = new ArrayList<>();
         playlists = new ArrayList<>();
         scanner = new Scanner(System.in);
@@ -282,7 +282,7 @@ public class Main {
 
     // Main method to start the application
     public static void main(String[] args) {
-        Main app = new Main();
+        ProjectA app = new ProjectA();
         app.menu();
     }
 }

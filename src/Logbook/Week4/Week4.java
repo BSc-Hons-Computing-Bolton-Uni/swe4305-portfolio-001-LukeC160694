@@ -122,7 +122,7 @@ class Student {
 /**
  * Test the program in the main method.
  */
-public class main {
+public class Week4 {
     public static void main(String[] args) {
         // Create a course
         Course course = new Course("CS101", "Computer Science");

@@ -11,7 +11,7 @@ import java.time.LocalDate;
  * User input, arithmetic operations, and string manipulation.
  */
 
-public class main {
+public class Week1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
