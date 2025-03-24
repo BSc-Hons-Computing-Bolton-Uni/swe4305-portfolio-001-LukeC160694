@@ -252,11 +252,11 @@ public class ProjectA {
             System.out.println("3. Print All Songs");
             System.out.println("4. Print Songs Over X Plays");
             System.out.println("5. Play a Song");
-            System.out.println("6. Exit");
-            System.out.println("7. Create Playlist");
-            System.out.println("8. Add Song to Playlist");
-            System.out.println("9. View Playlist");
-            System.out.println("10. Play Song from Playlist");
+            System.out.println("6. Create Playlist");
+            System.out.println("7. Add Song to Playlist");
+            System.out.println("8. View Playlist");
+            System.out.println("9. Play Song from Playlist");
+            System.out.println("10. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
@@ -267,14 +267,14 @@ public class ProjectA {
                 case 3 -> printAllSongs();
                 case 4 -> printSongsOverPlays();
                 case 5 -> playSong();
-                case 6 -> {
+                case 6 -> createPlaylist();
+                case 7 -> addSongToPlaylist();
+                case 8 -> viewPlaylist();
+                case 9 -> playFromPlaylist();
+                case 10 -> {
                     System.out.println("Exiting...");
                     return;
                 }
-                case 7 -> createPlaylist();
-                case 8 -> addSongToPlaylist();
-                case 9 -> viewPlaylist();
-                case 10 -> playFromPlaylist();
                 default -> System.out.println("Invalid option. Try again.");
             }
         }
