@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 import java.util.Scanner;
-
 // Represents a song with an artist, title, and play count
 class Song {
     private String artist;
